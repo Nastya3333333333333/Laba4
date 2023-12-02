@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="styles (1).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>    
+<div class="animate__animated animate__bounce"><h1><em>Вітаємо в книжковій крамничці!</em></h1></div>
+        <nav>
+            <ul>
+                <li><a href="main.html">Головна</a></li>
+                <li><a href="registration.html">Регістрація</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <div class="search-box">
+        <input type="text" placeholder="Пошук">
+        <div class="search-icon">&#128269;</div>
+    </div>
+</header>
+<div class="image-container">
+    <div class="image-text">We love books</div>
+    <img src="images/book3.jpg" alt="Читайте книжки" class="responsive-image">
+</div>
+
+<section class="content" style="grid-area: main;">
+
+    <div class="menu-container">
+        <button class="menu-button">Меню</button>
+        <ul class="dropdown-menu">
+          <li><a href="news.html">Амок</a></li>
+          <li><a href="news.html">Клуб Невиправних оптимістів</a></li>
+          <li><a href="registration.html">Перевтілення</a></li>
+          <li><a href="registration.html">Світло в темряві</a></li>
+          <li><a href="news.html">Дякую за куріння</a></li>
+        </ul>
+    </div>
+        <h2><em>Оберіть книгу вам до смаку</em></h2>
+                <img src="images/news1.jpg" alt="тут могла бути ваша реклама" width="300" height="400">
+                <button type="button"><li><a href="news.html">Амок</a></li></button>
+                <img src="images/news3.jpg" alt="тут могла бути ваша реклама"  width="300" height="400">
+                <button type="button"><li><a href="news.html">Клуб Невиправних оптимістів</a></li></button>
+                <img src="images/book1.jpg" alt="тут могла бути ваша реклама"  width="300" height="400">
+                <button type="button"><li><a href="registration.html">Перевтілення</a></li></button>
+                <img src="images/book2.jpg" alt="тут могла бути ваша реклама"  width="300" height="400" >
+                <button type="button"><li><a href="registration.html">Світло в темряві</a></li></button>
+                <img src="images/news4.jpg" alt="тут могла бути ваша реклама"  width="300" height="400">
+                <button type="button"><li><a href="news.html">Дякую за куріння</a></li></button>
+            </ul>
+           
+
+    <section class="content">
+    </section>
+    <div class="menu-container">
+        <button class="signin-button">Sign in</button>
+        <ul class="dropdown-menu">
+            <form action="розташування_обрабника.php" method="post">
+                <label for="ім'я">Ім'я:</label>
+                <input type="text" id="ім'я" name="ім'я" required>
+                <br>
+        
+                <label for="прізвище">Прізвище:</label>
+                <input type="text" id="прізвище" name="прізвище" required>
+                <br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+        
+                <label for="пароль">Пароль:</label>
+                <input type="password" id="пароль" name="пароль" required>
+                <br>
+        
+                <label for="підтвердження_пароля">Підтвердження пароля:</label>
+                <input type="password" id="підтвердження_пароля" name="підтвердження_пароля" required>
+                <br>
+        
+                <input type="submit" value="Зареєструватися">
+            </form>
+        </ul>
+        <a href="#" class="scroll-to-top">
+            &#9650;
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2023 Bookshop
+    </footer>
+</body>
+</html>

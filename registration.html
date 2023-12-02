@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="styles (1).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>
+        <div class="animate__animated animate__bounce"><h1>Реєстрація</h1></div>
+        <nav>
+            <ul>
+                <li><a href="main.html">Головна</a></li>
+                <li><a href="registration.html">Реєстрація</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Реєстрація</h1>
+    <form action="розташування_обрабника.php" method="post">
+        <label for="ім'я">Ім'я:</label>
+        <input type="text" id="ім'я" name="ім'я" required>
+        <br>
+
+        <label for="прізвище">Прізвище:</label>
+        <input type="text" id="прізвище" name="прізвище" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="пароль">Пароль:</label>
+        <input type="password" id="пароль" name="пароль" required>
+        <br>
+
+        <label for="підтвердження_пароля">Підтвердження пароля:</label>
+        <input type="password" id="підтвердження_пароля" name="підтвердження_пароля" required>
+        <br>
+
+        <input type="submit" value="Зареєструватися">
+    </form>
+    <footer>
+        &copy; 2023 Bookshop
+    </footer>
+</body>
+</html>
